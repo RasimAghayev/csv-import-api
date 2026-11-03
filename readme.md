@@ -1,4 +1,6 @@
 # csv-import-api
+![Views](https://hits.sh/github.com/RasimAghayev/csv-import-api.svg?label=views&color=0e75b6)
+
 
 A take-home PHP test task (see [`Task.md`](Task.md) for the original brief):
 import a CSV of customer records into MySQL, then browse and filter that data
