@@ -5,7 +5,7 @@
 # copied into the image, so the container needs no bind mount of the
 # repository. Every bind mount of the compose stack lives under var/ (R92).
 
-FROM php:8.5-apache@sha256:73a1c4a912f1ba807073d47a3b875fbf36ff88b563cc2c73b16da2387a5694ca AS base
+FROM php:8.5-apache@sha256:08af36df144462d84c7f16190557eec06cb9f656882685610b712a15eec54d46 AS base
 
 # The application talks to the database with mysqli. The extension is part of
 # the image, so nothing has to be installed on the host.
